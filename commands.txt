@@ -1,0 +1,29 @@
+------------------------------------------basics---------------------------------------------------------------------
+ls -> list the directories
+mkdir -> create new directory
+cd folderName -> move/enter that directory
+git init -> Initializes a hidden git repository where all the history is saved.
+ls -a -> Displays all the hidden files and folders.
+ls .git -> Displays all the hidden Files and folders In the git repository.
+touch -> creates a file.
+git status -> To know what changes are made which are not been saved(untracked) or just been added but not commited.
+git add filename -> stages the file to be commited.
+git commit -m "message" -> commits the file.
+cat filename -> displays the contents available in the file.
+git restore --staged filename -> makes the file unstaged.
+git log -> to see entire history of the project.
+rm -rf xyz.txt -> to delete the file.
+---------------------------------------------------------------------------------------------------------------------
+git reset hashId -> removes all the commits above the selected commit.
+git stash -> to go back in the project.
+git stash pop -> revert the stash cmd
+git remote add origin url -> To connect URL to your project.
+git remote -v -> Shows all the Urls connected to the project.
+git push origin main -> To push your files to the Github repository.
+git branch -> Displace the branches present.
+git branch name -> Creates a new branch.
+Git checkout branchName -> points the head to the selected branch
+git merge branchName -> Branch gets merged To the main branch.
+git clone url -> downloads the repo/files into the local directory
+git remote add upstream url -> adds where it is forked from.
+
