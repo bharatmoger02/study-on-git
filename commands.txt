@@ -19,3 +19,9 @@ git stash -> to go back in the project.
 git stash pop -> revert the stash cmd
 git remote add origin url -> To connect URL to your project.
 git remote -v -> Shows all the Urls connected to the project.
+git push origin main -> To push your files to the Github repository.
+git branch -> Displace the branches present.
+git branch name -> Creates a new branch.
+Git checkout branchName -> points the head to the selected branch
+git merge branchName -> Branch gets merged To the main branch.
+
